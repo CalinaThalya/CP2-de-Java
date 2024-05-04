@@ -32,7 +32,7 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 - DELETE /brinquedos/{id}: Remove um brinquedo específico com o ID fornecido.
 
 ## Testes:
-Para testar os endpoints, foi utilizado o software Postman. Seguem o resultado de um dos testes:
+Para testar os endpoints, foi utilizado o software Postman. Segue o resultado de um dos testes:
 
 
 
