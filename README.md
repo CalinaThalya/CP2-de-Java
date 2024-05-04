@@ -14,14 +14,14 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 
 ![image (2)](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/a1c457b2-3cae-4616-8cf9-580da3d6285e)
 
-
-
-
 ## Estrutura do Projeto
 - src/main/java: Contém os pacotes e classes Java do projeto.
 - src/main/resources: Contém os arquivos de configuração.
 - META-INF: Contém o arquivo persistence.xml com as configurações de conexão com o banco de dados Oracle.
 
+## Diagrama UML:
+
+![Diagrama UML](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/85e6e6a9-cd84-43de-b0d7-c2b85d8a78f5)
 
 ## Endpoints :
 
@@ -34,11 +34,6 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 ## Testes:
 Para testar os endpoints, foi utilizado o software Postman. Segue o resultado de um dos testes:
 
-
-
 ![Postman metodo GET](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/a1aa62d2-6f27-461d-b3c8-430916e3b03f)
-
-
-
 
 
