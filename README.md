@@ -24,7 +24,8 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 ![Diagrama UML](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/85e6e6a9-cd84-43de-b0d7-c2b85d8a78f5)
 
 ## Endpoints :
-```
+
+```JAVA
 {
     "endpoints": [
         {
