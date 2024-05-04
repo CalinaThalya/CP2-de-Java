@@ -24,12 +24,41 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 ![Diagrama UML](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/85e6e6a9-cd84-43de-b0d7-c2b85d8a78f5)
 
 ## Endpoints :
+```
+{
+    "endpoints": [
+        {
+            "method": "GET",
+            "path": "/brinquedos",
+            "description": "Retorna uma lista de todos os brinquedos."
+        },
+        {
+            "method": "GET",
+            "path": "/brinquedos/{id}",
+            "description": "Retorna os detalhes de um brinquedo específico com o ID fornecido."
+        },
+        {
+            "method": "POST",
+            "path": "/brinquedos",
+            "description": "Cria um novo brinquedo com base nos dados fornecidos no corpo da requisição."
+        },
+        {
+            "method": "DELETE",
+            "path": "/brinquedos/{id}",
+            "description": "Deleta o brinquedo com o ID fornecido."
+        },
+        {
+            "method": "PUT",
+            "path": "/brinquedos/{id}",
+            "description": "Atualiza as informações de um brinquedo existente com o ID fornecido, utilizando os dados fornecidos no corpo da requisição."
+        }
+    ]
+}
 
-- POST /brinquedos: Cria um novo brinquedo com os dados fornecidos no corpo da requisição.
-- GET /brinquedos: Retorna informações sobre todos os brinquedos cadastrados.
-- GET /brinquedos/{id}: Retorna informações sobre um brinquedo específico com o ID fornecido.
-- PUT /brinquedos/{id}: Atualiza as informações de um brinquedo específico com o ID fornecido.
-- DELETE /brinquedos/{id}: Remove um brinquedo específico com o ID fornecido.
+```
+
+## Foi feita a criação das tabelas no banco de dados e inseridos os seguintes codigos:
+![Dados inseridos na tabela](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/df8f3dab-9497-4c31-b27d-63080ee42e76)
 
 ## Testes:
 Para testar os endpoints, foi utilizado o software Postman. Segue o resultado de um dos testes:
