@@ -12,7 +12,8 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 
 ## Spring Initializr:
 
-![image](https://github.com/CalinaThalya/cp2-java/assets/116985483/3929b58d-cbb4-457a-b420-e09760bd52ab)
+![image (2)](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/a1c457b2-3cae-4616-8cf9-580da3d6285e)
+
 
 
 
@@ -31,5 +32,13 @@ Este projeto consiste em um aplicativo desenvolvido em Java usando o framework S
 - DELETE /brinquedos/{id}: Remove um brinquedo específico com o ID fornecido.
 
 ## Testes:
-Para testar os endpoints, foi utilizado o software Postman. Seguem os resultados dos testes:
+Para testar os endpoints, foi utilizado o software Postman. Seguem o resultado de um dos testes:
+
+
+
+![Postman metodo GET](https://github.com/CalinaThalya/CP2-de-Java/assets/116985483/a1aa62d2-6f27-461d-b3c8-430916e3b03f)
+
+
+
+
 
